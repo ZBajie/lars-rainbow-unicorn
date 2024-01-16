@@ -6,3 +6,7 @@ var volvo = {
     Rust: true,
 };
 console.log("volvo: ", volvo);
+function hejAnimal(array) {
+    array.forEach(function (item) { return console.log("Hej ".concat(item)); });
+}
+hejAnimal(animals);

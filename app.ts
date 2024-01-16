@@ -15,3 +15,9 @@ const volvo: cars = {
 }
 
 console.log("volvo: ", volvo)
+
+function hejAnimal(array: string[]): void {
+  array.forEach((item: string) => console.log(`Hej ${item}`))
+}
+
+hejAnimal(animals)
